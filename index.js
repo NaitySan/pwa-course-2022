@@ -1,3 +1,3 @@
 function helloworld() {
-  alert("Hello World!");
+  alert("Congrats! You have clicked on the right spot!");
 }
