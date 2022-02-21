@@ -1,0 +1,20 @@
+body{
+    background-color: aliceblue;
+}
+
+.ball{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    border-radius: 50%;
+    text-align: center;
+    transition: widtg 2x, height 2x, background-color 2x;
+
+}
+
+.ball:hover{
+    background-color: orange;
+    width: 70px;
+    height: 70px;
+}
