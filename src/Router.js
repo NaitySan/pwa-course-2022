@@ -22,7 +22,7 @@ function Router() {
         <ChatStateProvider self={authState.user}>
           <BrowserRouter>
             <Routes>
-              <Route path="/chat" element={<Chat />}/>
+              <Route path="/chat" element={<Chat/>}/>
               <Route path="/privatechat/:uid" element={<PrivateChat />}/>
               <Route path="/profile" element={<Profile />}/>
               <Route path="/friend-list" element={<FriendList />}/>
